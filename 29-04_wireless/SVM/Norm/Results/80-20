@@ -1,0 +1,25 @@
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances         910               79.615  %
+Incorrectly Classified Instances       233               20.385  %
+Kappa statistic                          0.5928
+Mean absolute error                      0.2038
+Root mean squared error                  0.4515
+Relative absolute error                 40.7693 %
+Root relative squared error             90.298  %
+Total Number of Instances             1143     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.724     0.131      0.849     0.724     0.782      0.797    NotCharging
+                 0.869     0.276      0.756     0.869     0.809      0.797    Charging
+Weighted Avg.    0.796     0.203      0.803     0.796     0.795      0.797
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 417 159 |   a = NotCharging
+  74 493 |   b = Charging
+

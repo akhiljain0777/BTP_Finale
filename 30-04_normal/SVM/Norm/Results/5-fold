@@ -1,0 +1,26 @@
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        8558               85.4177 %
+Incorrectly Classified Instances      1461               14.5823 %
+Kappa statistic                          0.7084
+Mean absolute error                      0.1458
+Root mean squared error                  0.3819
+Relative absolute error                 29.1646 %
+Root relative squared error             76.3735 %
+Total Number of Instances            10019     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.802     0.094      0.895     0.802     0.846      0.854    NotCharging
+                 0.906     0.198      0.821     0.906     0.861      0.854    Charging
+Weighted Avg.    0.854     0.146      0.858     0.854     0.854      0.854
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4020  990 |    a = NotCharging
+  471 4538 |    b = Charging
+
